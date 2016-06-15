@@ -1,0 +1,237 @@
+/* NAV BAR */
+.navbar-default {
+    background: transparent;
+    border-color: transparent;
+    min-height:32px !important;
+}
+.navbar-default .navbar-nav > li >a {
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 9px;
+  padding-left: 9px;
+}
+.navbar-default .navbar-nav > li.active > a {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.navbar-default .navbar-nav > li.active > a:hover {
+  color: #333;
+}
+.navbar-brand {
+  padding-top: 4px;
+  padding-left: 10px;
+}
+.navbar-brand img {
+  max-width: 160px;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+  color: #fff;
+}
+
+/* CAROUSEL */
+#slide1 {
+  background-image: url('../img/wood-2.jpg');
+  min-height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#slide1 img {
+  max-height: 55vh;
+  padding-top: 15vh;
+  padding-bottom: 4vh;
+}
+#slide2 {
+  background-image: url('../img/restaurant-2.jpg');
+  min-height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#slide2 .carousel-caption{
+  padding-top: 20vh;
+  padding-bottom: 10vh;
+}
+#slide2 h1 {
+  font-size: 50px;
+  text-shadow: 2px 2px 5px #444;
+}
+#slide2 p {
+  font-size: 18px;
+  text-shadow: 2px 2px 1px #000;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+#slide2 button {
+  border: 0;
+  border-radius: 5px;
+  background-color: #F15A25;
+  color: white;
+}
+.but-con {
+  padding-top: 20px;
+  margin: 0;
+  text-align: center;
+}
+#slide3 {
+  background-image: url('../img/farm-2.jpg');
+  min-height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#slide3 .carousel-caption{
+  padding-top: 20vh;
+  padding-bottom: 10vh;
+}
+#slide3 h1 {
+  font-size: 50px;
+  text-shadow: 2px 2px 5px #444;
+}
+#slide3 p {
+  font-size: 18px;
+  text-shadow: 2px 2px 1px #000;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+#slide3 button {
+  border: 0;
+  border-radius: 5px;
+  background-color: #F15A25;
+  color: white;
+}
+/*OUR STORY SECTION*/
+#story {
+  padding: 5%;
+}
+.heading {
+  font-size: 60px;
+  font-family: 'Lobster', cursive;
+  color: #F8512F;
+  text-shadow: 2px 2px 5px #000;
+}
+#story h1 {
+  text-align: left !important;
+}
+#story h3 {
+  font-weight: 700;
+  margin-top: 0;
+}
+#story p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 11px;
+}
+#year {
+  z-index: -1;
+  position: absolute;
+  color: #e9e9e9;
+  font-size: 180px;
+  font-family: 'Playfair Display', serif;
+  margin-top: -25px;
+}
+
+/* FOOD-REVIEW SECTION */
+#food-review {
+  background-image: url('../img/food_review.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 500px;
+}
+#food-review .food-background {
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-top: 5%;
+  padding: 3%;
+}
+#food-review h3 {
+    color: white;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* MENU SECTION */
+#home-menu {
+  padding: 3%;
+  background-color: #fff;
+}
+#home-menu h1 {
+  font-weight: 700;
+  text-align: center;
+  font-size: 18px;
+}
+#home-menu p {
+  text-align: justify;
+}
+#menu {
+  background-image: url('../img/black_linen.png');
+}
+#menu-con {
+    padding: 12%;
+}
+#menu-h1 {
+  color: #fff;
+  font-size: 60px;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+}
+#menu .tab-pane {
+  background-color: #fff;
+  padding: 2%;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+#menu a {
+  color: #F8512F;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding-bottom: 5px;
+  font-weight: 700;
+}
+/*CONTACT SECTION */
+#contact {
+  background-color: #F8512F;
+  color: #fff;
+}
+#con-con {
+  padding-left: 125px;
+  padding-right
+}
+#contact h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: left;
+}
+.map {
+  position: relative;
+  padding-bottom: 60%; // This is the aspect ratio
+  height: 0;
+  overflow: hidden;
+}
+.map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  pointer-events: none;
+}
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 575px){
+  #rc-imageselect, .g-recaptcha {transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;
+}
+
+@media screen and (max-width: 435px){
+  #year {
+    font-size: 140px;
+  }
+}
+
+@media screen and (max-width : 767px) {
+
+}
