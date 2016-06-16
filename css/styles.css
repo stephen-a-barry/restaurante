@@ -268,7 +268,9 @@
 }
 @media screen and (max-width: 436px){
   #slide1 {
-    height: 300px;
+    min-height: 0;
+    height: 310px;
+
   }
   #slide2 h1 {
     font-size: 24px;
