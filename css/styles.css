@@ -202,6 +202,7 @@
 #contact {
   background-color: #F8512F;
   color: #fff;
+  margin: auto;
 }
 #con-con {
   padding-left: 12%;
@@ -219,14 +220,16 @@
   font-size: 12px;
 }
 #formaddressmap {
-  padding-left: 0;
-  padding-top: 6vh;
-  margin: 0;
-  padding-right: 0;
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 #addressmap {
   padding: 0;
   margin: 0;
+  margin-left: 50px;
+  padding-bottom: 50px;
   font-size: 11px;
   font-family: 'Raleway', serif;
 }
@@ -234,10 +237,6 @@
   padding-left: 0;
   padding-right: 0;
 }
-#insideform {
-
-}
-
 .map {
   position: relative;
   padding-bottom: 25%; // This is the aspect ratio
@@ -255,22 +254,48 @@
 }
 /* MEDIA QUERIES */
 
-@media screen and (max-width : 800px) {
+@media screen and (max-width: 992px) {
   #formaddressmap {
-    padding-left: 0;
-    padding-top: 6vh;
-    margin: 0;
-    padding-right: 0;
+    padding-left: 8%;
+    padding-right: 8%;
   }
-  .map {
-    padding-bottom: 50%;
-    max-width: 250px;
+  #addressmap {
+    margin-left: 50px;
+  }
+  #addressmap address {
+    text-align: left;
   }
 }
+
+@media screen and (max-width: 769px) {
+  #slide2 .carousel-caption {
+    padding-top: 20vh;
+    padding-bottom: 18vh;
+  }
+  #slide3 .carousel-caption {
+    padding-top: 20vh;
+    padding-bottom: 18vh;
+  }
+  #formaddressmap {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  #addressmap {
+    margin-left: 48px;
+  }
+  #addressmap address {
+    text-align: center;
+  }
+  .map {
+    padding-bottom: 65%;
+  }
+}
+
 @media screen and (max-width: 575px){
   #rc-imageselect, .g-recaptcha {transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;
 }
-@media screen and (max-width: 436px){
+
+@media screen and (max-width: 480px){
   #slide2 h1 {
     font-size: 24px;
     text-shadow: 2px 2px 5px #444;
@@ -280,6 +305,10 @@
     text-shadow: 2px 2px 1px #000;
     padding-right: 30px;
     padding-left: 30px;
+  }
+  #slide2 .carousel-caption {
+    padding-top: 20vh;
+    padding-bottom: 20vh;
   }
   #slide3 h1 {
     font-size: 24px;
@@ -291,14 +320,37 @@
     padding-right: 30px;
     padding-left: 30px;
   }
+  #slide3 .carousel-caption {
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+  }
   #year {
     font-size: 140px;
   }
   #contact h1 {
     font-size: 36px;
   }
+  #formaddressmap {
+    padding-left: 14%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  #addressmap {
+    margin-left: 8%;
+    margin-right: 10%;
+  }
+  #addressmap address {
+    text-align: center;
+    margin-top: -30px;
+    margin-right: 20px;
+  }
+  .map {
+    width: 240px;
+  }
 }
-@media screen and (max-width: 321px){
+
+@media screen and (max-width: 320px){
   #slide1 img {
     max-height: 235px;
     padding-top: 64px;
@@ -313,6 +365,24 @@
     padding-bottom: 23px;
   }
   #formaddressmap {
-    padding-top: 20px;;
+    padding-left: 4%;
+    padding-right: 12%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  #addressmap {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -40px;
+  }
+  #con-con h1 {
+    font-size: 32px;
+  }
+  #addressmap address {
+    text-align: center;
+    margin-right: 0;
+  }
+  .map {
+    width: 270px;
   }
 }
