@@ -267,11 +267,6 @@
   #rc-imageselect, .g-recaptcha {transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;
 }
 @media screen and (max-width: 436px){
-  #slide1 {
-    min-height: 0;
-    height: 310px;
-
-  }
   #slide2 h1 {
     font-size: 24px;
     text-shadow: 2px 2px 5px #444;
@@ -297,5 +292,27 @@
   }
   #contact h1 {
     font-size: 36px;
+  }
+}
+@media screen and (max-width: 321px){
+  #slide1 img {
+    max-height: 235px;
+    padding-top: 64px;
+    padding-bottom:17px;
+  }
+  #slide1, #slide2, #slide3 {
+    min-height: 0;
+    height: 300px;
+  }
+  #slide2 .carousel-caption, #slide3 .carousel-caption {
+    padding-top: 86px;
+    padding-bottom: 23px;
+  }
+  #food-review {
+    min-height: 0;
+    height: 500px;
+  }
+  #formaddressmap {
+    padding-top: 20px;;
   }
 }
