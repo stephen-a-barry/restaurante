@@ -5,7 +5,7 @@
     min-height:32px !important;
 }
 .navbar-default .navbar-nav > li >a {
-  color: #fff;
+  color: #ddd;
   font-size: 11px;
   font-weight: 700;
   font-family: 'Raleway', sans-serif;
@@ -14,8 +14,15 @@
   padding-right: 9px;
   padding-left: 9px;
 }
-.navbar-default .navbar-nav > li.active > a {
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: rgba(221, 221, 221, 0.75);
+  color: #333;
+}
+.navbar-default .navbar-nav > li > a:hover {
   background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
 }
 .navbar-default .navbar-nav > li.active > a:hover {
   color: #333;
@@ -26,11 +33,6 @@
 }
 .navbar-brand img {
   max-width: 160px;
-}
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:focus,
-.navbar-default .navbar-nav>.active>a:hover {
-  color: #fff;
 }
 
 /* CAROUSEL */
@@ -138,6 +140,7 @@
 /* FOOD-REVIEW SECTION */
 #food-review {
   background-image: url('../img/food_review.jpg');
+  background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   min-height: 500px;
@@ -292,5 +295,23 @@
   }
   #contact h1 {
     font-size: 36px;
+  }
+}
+@media screen and (max-width: 321px){
+  #slide1 img {
+    max-height: 235px;
+    padding-top: 64px;
+    padding-bottom:17px;
+  }
+  #slide1, #slide2, #slide3 {
+    min-height: 0;
+    height: 300px;
+  }
+  #slide2 .carousel-caption, #slide3 .carousel-caption {
+    padding-top: 86px;
+    padding-bottom: 23px;
+  }
+  #formaddressmap {
+    padding-top: 20px;;
   }
 }
