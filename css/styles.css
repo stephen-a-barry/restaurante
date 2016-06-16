@@ -267,6 +267,9 @@
   #rc-imageselect, .g-recaptcha {transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;
 }
 @media screen and (max-width: 436px){
+  #slide1 {
+    height: 300px;
+  }
   #slide2 h1 {
     font-size: 24px;
     text-shadow: 2px 2px 5px #444;
