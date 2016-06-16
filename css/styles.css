@@ -38,7 +38,7 @@
   background-image: url('../img/wood-2.jpg');
   min-height: 70vh;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover !important;
   background-position: center;
 }
 #slide1 img {
