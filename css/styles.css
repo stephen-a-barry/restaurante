@@ -138,6 +138,7 @@
 /* FOOD-REVIEW SECTION */
 #food-review {
   background-image: url('../img/food_review.jpg');
+  background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   min-height: 500px;
@@ -310,7 +311,7 @@
   }
   #food-review {
     min-height: 0;
-    height: 300px;
+    height: 500px;
   }
   #formaddressmap {
     padding-top: 20px;;
