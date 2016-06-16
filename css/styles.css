@@ -170,7 +170,10 @@
   background-image: url('../img/black_linen.png');
 }
 #menu-con {
-    padding: 12%;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 2%;
+    padding-bottom: 5%;
 }
 #menu-h1 {
   color: #fff;
@@ -197,19 +200,45 @@
   color: #fff;
 }
 #con-con {
-  padding-left: 125px;
-  padding-right
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 #contact h1 {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 42px;
   text-align: left;
 }
+#contact p {
+  font-size: 12px;
+}
+#formaddressmap {
+  padding-left: 0;
+  padding-top: 6vh;
+  margin: 0;
+  padding-right: 0;
+}
+#addressmap {
+  padding: 0;
+  margin: 0;
+  font-size: 11px;
+  font-family: 'Raleway', serif;
+}
+#form {
+  padding-left: 0;
+  padding-right: 0;
+}
+#insideform {
+
+}
+
 .map {
   position: relative;
-  padding-bottom: 60%; // This is the aspect ratio
+  padding-bottom: 25%; // This is the aspect ratio
   height: 0;
+  max-width: 350px;
   overflow: hidden;
 }
 .map iframe {
@@ -222,16 +251,46 @@
 }
 /* MEDIA QUERIES */
 
+@media screen and (max-width : 800px) {
+  #formaddressmap {
+    padding-left: 0;
+    padding-top: 6vh;
+    margin: 0;
+    padding-right: 0;
+  }
+  .map {
+    padding-bottom: 50%;
+    max-width: 250px;
+  }
+}
 @media screen and (max-width: 575px){
   #rc-imageselect, .g-recaptcha {transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;
 }
-
-@media screen and (max-width: 435px){
+@media screen and (max-width: 436px){
+  #slide2 h1 {
+    font-size: 24px;
+    text-shadow: 2px 2px 5px #444;
+  }
+  #slide2 p {
+    font-size: 12px;
+    text-shadow: 2px 2px 1px #000;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  #slide3 h1 {
+    font-size: 24px;
+    text-shadow: 2px 2px 5px #444;
+  }
+  #slide3 p {
+    font-size: 12px;
+    text-shadow: 2px 2px 1px #000;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
   #year {
     font-size: 140px;
   }
-}
-
-@media screen and (max-width : 767px) {
-
+  #contact h1 {
+    font-size: 36px;
+  }
 }
