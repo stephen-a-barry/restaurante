@@ -158,16 +158,16 @@
 }
 
 /* MENU SECTION */
-#home-menu {
+.home-menu {
   padding: 3%;
   background-color: #fff;
 }
-#home-menu h1 {
+.home-menu h1 {
   font-weight: 700;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
 }
-#home-menu p {
+.home-menu p {
   text-align: justify;
 }
 #menu {
