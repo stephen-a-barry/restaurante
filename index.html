@@ -51,29 +51,28 @@
 
 	  <!-- Wrapper for slides -->
 	  <div class="carousel-inner" role="listbox">
-	    <div class="item active" id="slide1">
-	      <div class="col-md-12">
-
+	    <div class="item active slides" id="slide1">
+	      <div class="col-md-12" id="logodiv">
 					<img class="img-responsive center-block" src="img/logo-01.png" alt="large restaurant logo">
 	      </div>
 	    </div><!-- END ITEM 1 -->
-	    <div class="item" id="slide2">
-	      <div class="carousel-caption">
-						<h1>Eat Local.</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+	    <div class="item slides" id="slide2">
+	      <div class="carousel-caption" id="slide2caption">
+						<h1 id="slide2header">Eat Local.</h1>
+						<p id="slide2description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 						<div class="row center-block but-con">
-							<button type="button" class="btn btn-default btn-lg">
+							<button type="button" class="btn btn-default btn-lg" id="learnmore">
 								Learn More
 							</button>
 						</div>
 	      </div>
 	    </div><!-- END ITEM 2 -->
-			<div class="item" id="slide3">
-	      <div class="carousel-caption">
-						<h1>From farm to table.</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde et ratione aliquam optio nisi corporis eos nulla dicta nesciunt delectus reprehenderit laborum.</p>
+			<div class="item slides" id="slide3">
+	      <div class="carousel-caption" id="slide3caption">
+						<h1 id="slide3header">From farm to table.</h1>
+						<p id="slide3description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde et ratione aliquam optio nisi corporis eos nulla dicta nesciunt delectus reprehenderit laborum.</p>
 						<div class="row but-con">
-						<button type="button" class="btn btn-default btn-lg">
+						<button type="button" class="btn btn-default btn-lg" id="browse">
 							Browse Gallery
 						</button>
 						</div>
@@ -297,5 +296,6 @@
         });
     });
   </script>
+	<script src="script.js"></script>
 </body>
 </html>
