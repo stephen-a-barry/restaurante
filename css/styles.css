@@ -416,7 +416,6 @@ default.active,
 @media screen and (max-width: 360px){
   #form {
     padding-left: 3%;
-    padding-right: 4%;
   }
 }
 @media screen and (max-width: 320px){
@@ -443,8 +442,8 @@ default.active,
     padding-right: 0;
   }
   #addressmap {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-right: 0;
     margin-top: -40px;
   }
   #con-con h1 {
@@ -452,7 +451,7 @@ default.active,
   }
   #addressmap address {
     text-align: center;
-    margin-right: 0;
+    margin: 0;
   }
   .map {
     width: 270px;
