@@ -434,12 +434,13 @@ default.active,
     padding-bottom: 42px;
   }
   #form {
-    margin-left: -7%;
-    padding-right: 4%;
+  margin: 0;
   }
   #formaddressmap {
     padding-top: 2%;
     padding-bottom: 2%;
+    padding-left: 0;
+    padding-right: 0;
   }
   #addressmap {
     margin-left: auto;
@@ -455,7 +456,5 @@ default.active,
   }
   .map {
     width: 270px;
-    margin-left: -4%;
-    margin-right: auto;
   }
 }
