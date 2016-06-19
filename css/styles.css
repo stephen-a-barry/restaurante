@@ -321,11 +321,7 @@ default.active,
 }
 
 @media screen and (max-width: 769px) {
-  #slide2 .carousel-caption {
-    padding-top: 20vh;
-    padding-bottom: 18vh;
-  }
-  #slide3 .carousel-caption {
+  .slides .carousel-caption {
     padding-top: 20vh;
     padding-bottom: 18vh;
   }
@@ -344,36 +340,29 @@ default.active,
   }
 }
 
-@media screen and (max-width: 575px){
+@media screen and (max-width: 769px){
   #rc-imageselect, .g-recaptcha {transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;
 }
-
+  #form {
+    padding-left: 5%;
+    margin-right: -30px;
+  }
+  #addressmap {
+    margin-left: 63px;
+  }
+}
 @media screen and (max-width: 480px){
-  #slide2 h1 {
+  .slides h1 {
     font-size: 24px;
     text-shadow: 2px 2px 5px #444;
   }
-  #slide2 p {
+  .slides p {
     font-size: 12px;
     text-shadow: 2px 2px 1px #000;
     padding-right: 30px;
     padding-left: 30px;
   }
-  #slide2 .carousel-caption {
-    padding-top: 20vh;
-    padding-bottom: 20vh;
-  }
-  #slide3 h1 {
-    font-size: 24px;
-    text-shadow: 2px 2px 5px #444;
-  }
-  #slide3 p {
-    font-size: 12px;
-    text-shadow: 2px 2px 1px #000;
-    padding-right: 30px;
-    padding-left: 30px;
-  }
-  #slide3 .carousel-caption {
+  .slides .carousel-caption {
     padding-top: 20vh;
     padding-bottom: 20vh;
   }
@@ -384,10 +373,12 @@ default.active,
     font-size: 36px;
   }
   #formaddressmap {
-    padding-left: 14%;
-    padding-right: 4%;
     padding-top: 2%;
     padding-bottom: 2%;
+  }
+  #form {
+    padding-left: 8%;
+    padding-right: 4%;
   }
   #addressmap {
     margin-left: 8%;
@@ -400,26 +391,53 @@ default.active,
   }
   .map {
     width: 240px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
-
+@media screen and (max-width: 435px){
+  #form {
+    padding-left: 10%;
+    padding-right: 4%;
+  }
+}
+@media screen and (max-width: 414px){
+  #form {
+    padding-left: 8%;
+    padding-right: 4%;
+  }
+}
+@media screen and (max-width: 375px){
+  #form {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+}
+@media screen and (max-width: 360px){
+  #form {
+    padding-left: 3%;
+    padding-right: 4%;
+  }
+}
 @media screen and (max-width: 320px){
   #slide1 img {
     max-height: 235px;
     padding-top: 64px;
     padding-bottom:17px;
   }
-  #slide1, #slide2, #slide3 {
+  .slides {
     min-height: 0;
     height: 300px;
   }
-  #slide2 .carousel-caption, #slide3 .carousel-caption {
+  .slides .carousel-caption {
     padding-top: 86px;
-    padding-bottom: 23px;
+    padding-bottom: 42px;
+  }
+  #form {
+    margin-left: -7%;
+    padding-right: 4%;
   }
   #formaddressmap {
-    padding-left: 4%;
-    padding-right: 12%;
     padding-top: 2%;
     padding-bottom: 2%;
   }
@@ -437,5 +455,7 @@ default.active,
   }
   .map {
     width: 270px;
+    margin-left: -4%;
+    margin-right: auto;
   }
 }
