@@ -193,7 +193,7 @@ var learnMoreSlideShow = {
 
     /*ADD SLIDE CONTENT*/
     var slide1Header = document.querySelector('#slide1header');
-    slide1Header.innerHTML = "Boost Local Economy";
+    slide1Header.innerHTML = "Boosts Local Economy";
     var slide1Description = document.querySelector('#slide1description');
     slide1Description.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
 
