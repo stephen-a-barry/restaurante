@@ -426,8 +426,8 @@ default.active,
     padding-bottom:17px;
   }
   .slides {
-    min-height: 0;
-    height: 300px;
+    min-height: 0 !important;
+    height: 300px !important;
   }
   .slides .carousel-caption {
     padding-top: 86px;
